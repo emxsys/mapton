@@ -83,12 +83,6 @@
                 </exclusion>
             </exclusions>
         </dependency>
-        <dependency>
-            <groupId>org.apache.netbeans.modules</groupId>
-            <artifactId>org-netbeans-bootstrap</artifactId>
-            <version>${netbeans.version}</version>
-            <type>pom</type>
-        </dependency>
 
         <!-- Mapton -->
         <dependency>
@@ -216,7 +210,7 @@
     <build>
         <plugins>
             <plugin>
-                <groupId>org.codehaus.mojo</groupId>
+                <groupId>org.apache.netbeans.utilities</groupId>
                 <artifactId>nbm-maven-plugin</artifactId>
                 <configuration>
                     <installerOsSolaris>false</installerOsSolaris>
