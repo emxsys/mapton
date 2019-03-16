@@ -20,68 +20,74 @@
     <dependencies>
         <!-- NetBeans -->
         <dependency>
-            <groupId>org.netbeans.cluster</groupId>
+            <groupId>org.apache.netbeans.cluster</groupId>
             <artifactId>platform</artifactId>
             <version>${netbeans.version}</version>
             <type>pom</type>
             <exclusions>
                 <exclusion>
-                    <groupId>org.netbeans.modules</groupId>
+                    <groupId>org.apache.netbeans.modules</groupId>
                     <artifactId>org-netbeans-modules-junitlib</artifactId>
                 </exclusion>
                 <exclusion>
-                    <groupId>org.netbeans.api</groupId>
+                    <groupId>org.apache.netbeans.api</groupId>
                     <artifactId>org-netbeans-api-htmlui</artifactId>
                 </exclusion>
                 <exclusion>
-                    <groupId>org.netbeans.modules</groupId>
+                    <groupId>org.apache.netbeans.modules</groupId>
                     <artifactId>org-netbeans-modules-templatesui</artifactId>
                 </exclusion>
                 <exclusion>
-                    <groupId>org.netbeans.api</groupId>
+                    <groupId>org.apache.netbeans.api</groupId>
                     <artifactId>org-netbeans-api-progress-compat8</artifactId>
                 </exclusion>
                 <exclusion>
-                    <groupId>org.netbeans.api</groupId>
+                    <groupId>org.apache.netbeans.api</groupId>
                     <artifactId>org-netbeans-api-visual</artifactId>
                 </exclusion>
                 <exclusion>
-                    <groupId>org.netbeans.api</groupId>
+                    <groupId>org.apache.netbeans.api</groupId>
                     <artifactId>org-netbeans-libs-junit4</artifactId>
                 </exclusion>
                 <exclusion>
-                    <groupId>org.netbeans.api</groupId>
+                    <groupId>org.apache.netbeans.api</groupId>
                     <artifactId>org-netbeans-libs-testng</artifactId>
                 </exclusion>
                 <exclusion>
-                    <groupId>org.netbeans.api</groupId>
+                    <groupId>org.apache.netbeans.api</groupId>
                     <artifactId>org-openide-execution-compat8</artifactId>
                 </exclusion>
                 <exclusion>
-                    <groupId>org.netbeans.api</groupId>
+                    <groupId>org.apache.netbeans.api</groupId>
                     <artifactId>org-jdesktop-layout</artifactId>
                 </exclusion>
                 <exclusion>
-                    <groupId>org.netbeans.api</groupId>
+                    <groupId>org.apache.netbeans.api</groupId>
                     <artifactId>org-netbeans-libs-javafx</artifactId>
                 </exclusion>
                 <exclusion>
-                    <groupId>org.netbeans.api</groupId>
+                    <groupId>org.apache.netbeans.api</groupId>
                     <artifactId>org-netbeans-libs-jsr223</artifactId>
                 </exclusion>
                 <exclusion>
-                    <groupId>org.netbeans.api</groupId>
+                    <groupId>org.apache.netbeans.api</groupId>
                     <artifactId>org-openide-compat</artifactId>
                 </exclusion>
                 <exclusion>
-                    <groupId>org.netbeans.modules</groupId>
+                    <groupId>org.apache.netbeans.modules</groupId>
                     <artifactId>org-netbeans-modules-core-kit</artifactId>
                 </exclusion>
                 <exclusion>
-                    <groupId>org.netbeans.modules</groupId>
+                    <groupId>org.apache.netbeans.modules</groupId>
                     <artifactId>org-netbeans-modules-favorites</artifactId>
                 </exclusion>
             </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.netbeans.modules</groupId>
+            <artifactId>org-netbeans-bootstrap</artifactId>
+            <version>${netbeans.version}</version>
+            <type>pom</type>
         </dependency>
 
         <!-- Mapton -->
